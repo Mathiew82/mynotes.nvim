@@ -3,7 +3,9 @@
 A minimal Neovim plugin to open your personal notes in a floating
 window.
 
-<img src="./video-demo.gif" alt="demo" />
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Mathiew82/mynotes.nvim/main/video-demo.gif" alt="demo" />
+</div>
 
 ## Requirements
 
