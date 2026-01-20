@@ -1,4 +1,4 @@
-# mynotes.nvim
+# 📝 mynotes.nvim
 
 A minimal Neovim plugin to open your personal notes in a floating
 window.
