@@ -20,7 +20,7 @@ window.
 
 ``` lua
 {
-  "TU_USUARIO/mynotes.nvim",
+  "Mathiew82/mynotes.nvim",
   config = function()
     require("mynotes").setup({})
   end,
