@@ -97,6 +97,20 @@ require("mynotes").setup({
 
         doc/mynotes.txt
 
+> [!WARNING]  
+> Your notes file is stored inside Neovim's data directory.  
+> If you delete that folder, you will lose your notes.
+>
+> It is highly recommended to make regular backups.
+>
+> Example backup command:
+>
+> ```bash
+> mv ~/.local/share/nvim/mynotes.md{,.bak}
+> ```
+>
+> This will create a backup file before any risky operation.
+
 ## License
 
 MIT
