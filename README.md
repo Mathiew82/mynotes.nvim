@@ -87,15 +87,7 @@ require("mynotes").setup({
 })
 ```
 
-## Files
-
--   User notes file:
-
-        stdpath("data")/mynotes.md
-
--   Plugin help:
-
-        doc/mynotes.txt
+## Notes File
 
 > [!WARNING]  
 > Your notes file is stored inside Neovim's data directory.  
