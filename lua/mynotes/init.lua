@@ -108,10 +108,15 @@ local function get_real_display_path(path)
   return vim.fn.fnamemodify(resolved, ":~")
 end
 
+local function build_title(path)
+  local title = get_real_display_path(path)
+  return "  " .. title .. "  "
+end
+
 local function open_notes_float(path, cfg)
   local width, height, row, col = float_geometry(cfg)
 
-  local title = get_real_display_path(cfg.filepath)
+  local title = build_title(cfg.filepath)
 
   local bufnr = cfg.reuse_existing_buffer and find_existing_buf(path) or nil
   if not bufnr then
