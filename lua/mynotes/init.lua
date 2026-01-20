@@ -110,7 +110,7 @@ end
 
 local function build_title(path)
   local title = get_real_display_path(path)
-  return "  " .. title .. "  "
+  return " " .. title .. " "
 end
 
 local function open_notes_float(path, cfg)
