@@ -106,7 +106,3 @@ require("mynotes").setup({
 > ```
 >
 > This will create a backup file before any risky operation.
-
-## License
-
-MIT
