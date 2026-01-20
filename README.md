@@ -32,8 +32,14 @@ window.
 ```
 
 Then run:
+```
+:Lazy sync
+```
 
-    :Lazy sync
+For more information about this plugin, see also:
+```
+:help mynotes
+```
 
 ## Usage
 
