@@ -3,6 +3,8 @@
 A minimal Neovim plugin to open your personal notes in a floating
 window.
 
+<img src="./video-demo.gif" alt="demo" />
+
 ## Requirements
 
 -   Neovim \>= 0.11.0
