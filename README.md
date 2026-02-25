@@ -22,23 +22,33 @@ window.
 
 ## Installation (Lazy.nvim / LazyVim)
 
-``` lua
+### lazy.nvim
+
+```lua
 {
   "Mathiew82/mynotes.nvim",
+  event = "VeryLazy",
   config = function()
     require("mynotes").setup({})
   end,
 }
 ```
 
-Then run:
-```
-:Lazy sync
+### packer.nvim
+
+```lua
+use {
+  "Mathiew82/mynotes.nvim",
+  config = function()
+    require("mynotes").setup({})
+  end
+}
 ```
 
-For more information about this plugin, see also:
-```
-:help mynotes
+### vim-plug
+
+```vim
+Plug 'Mathiew82/mynotes.nvim'
 ```
 
 ## Usage
@@ -96,6 +106,11 @@ require("mynotes").setup({
   keymap_open = "<leader>\\",
 })
 ```
+> [!TIP]
+> For more information about this plugin, see also:
+> ```
+> :help mynotes
+> ```
 
 ## Notes File
 
