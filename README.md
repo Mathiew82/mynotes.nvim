@@ -106,6 +106,7 @@ require("mynotes").setup({
   keymap_open = "<leader>\\",
 })
 ```
+
 > [!TIP]
 > For more information about this plugin, see also:
 > ```
